@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <meta charset="utf-8" lang="eng">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,48 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <title>Twitter Clone</title>
   </head>
+
   <body>
-    <h1>Twitter Clone</h1>
+    <header>
+      <h1 class="title">Twitter Clone</h1>
+    </header>
+    <main class="root-container">
+      <form>
+        <textarea rows="10" cols="70" placeholder="Post a fake tweet..."></textarea>
+        <span class="submit">
+          <button>Post</button>
+        </span>
+      </form>
+      <section class="tweets">
+        <ul class="tweets-list">
+          <li class="tweet-item">
+            <span class="avatar">A</span>
+            <div class="tweet-details">
+              <strong class="author">Anonymous</strong>
+              <p class="tweet-text">The most fake tweet</p>
+              <small class="timestamp">11.00am</small>
+            </div>
+          </li>
+          <li class="tweet-item">
+            <span class="avatar">A</span>
+            <div class="tweet-details">
+              <strong class="author">Anonymous</strong>
+              <p class="tweet-text">I love football</p>
+              <small class="timestamp">11.00am</small>
+            </div>
+          </li>
+          <li class="tweet-item">
+            <span class="avatar">A</span>
+            <div class="tweet-details">
+              <strong class="author">Anonymous</strong>
+              <p class="tweet-text">I love basketball</p>
+              <small class="timestamp">11.00am</small>
+            </div>
+          </li>
+        </ul>
+      </section> 
+    </main>
     <srcipt src="./app.js"></srcipt>
   </body>
+
 </html>
