@@ -1,1 +1,1 @@
-require('./components/Header');
+require('./components/Header'); // require() built in function to load modules
